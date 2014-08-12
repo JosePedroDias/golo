@@ -2,9 +2,8 @@
 
 screencasts so far:
 
-https://www.youtube.com/watch?v=BVQba4VGNsA
-
-https://www.youtube.com/watch?v=VHecVoHl7ec
+* [taming playcanvas               ](https://www.youtube.com/watch?v=BVQba4VGNsA)
+* [football game prototype - part 2](https://www.youtube.com/watch?v=VHecVoHl7ec)
 
 
 
@@ -12,6 +11,9 @@ https://www.youtube.com/watch?v=VHecVoHl7ec
 
 * [latest experiment powered by the PC web editor](http://josepedrodias.github.io/golo/export_20140810/index.html)
 * [ongoing refactoring](http://josepedrodias.github.io/golo/handmade/index.html)
+
+The demo uses keys WSAD to move, space to shoot.  
+Shooting works only at close distance from ball and there's no feedback whatsoever apart from the ball getting the impulse.
 
 
 
