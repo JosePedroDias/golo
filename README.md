@@ -10,8 +10,8 @@ https://www.youtube.com/watch?v=VHecVoHl7ec
 
 # demos
 
-* [latest experiment powered by the PC web editor](export_20140810/index.html)
-* [ongoing refactoring](handmade/index.html)
+* [latest experiment powered by the PC web editor](http://josepedrodias.github.io/golo/export_20140810/index.html)
+* [ongoing refactoring](http://josepedrodias.github.io/golo/handmade/index.html)
 
 
 
