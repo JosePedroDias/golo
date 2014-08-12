@@ -1,0 +1,3326 @@
+{
+    "application_properties": {
+        "libraries": [
+            "code.playcanvas.com/ammo.3c2cc63.js"
+        ],
+        "width": 1280,
+        "fill_mode": "KEEP_ASPECT",
+        "height": 720,
+        "resolution_mode": "FIXED"
+    },
+    "toc": {
+        "051f8df6-1d13-11e4-a911-22000a4a0339": {
+            "assets": {
+                "8f510bc6-1f5c-11e4-a41b-22000a4a0339": {
+                    "name": "Material.002",
+                    "resource_id": "8f510bc6-1f5c-11e4-a41b-22000a4a0339",
+                    "has_thumbnail": false,
+                    "file": null,
+                    "type": "material",
+                    "data": {
+                        "name": "Material.002",
+                        "parameters": [
+                            {
+                                "data": [
+                                    0.2,
+                                    0.2,
+                                    0.2
+                                ],
+                                "type": "vec3",
+                                "name": "ambient"
+                            },
+                            {
+                                "data": [
+                                    0.450659,
+                                    0.528933,
+                                    0.64
+                                ],
+                                "type": "vec3",
+                                "name": "diffuse"
+                            },
+                            {
+                                "data": [
+                                    0.2,
+                                    0.2,
+                                    0.2
+                                ],
+                                "type": "vec3",
+                                "name": "specular"
+                            },
+                            {
+                                "data": 20,
+                                "type": "float",
+                                "name": "shininess"
+                            },
+                            {
+                                "data": [
+                                    0.563324,
+                                    0.661166,
+                                    0.8
+                                ],
+                                "type": "vec3",
+                                "name": "emissive"
+                            },
+                            {
+                                "data": 1,
+                                "type": "float",
+                                "name": "opacity"
+                            },
+                            {
+                                "type": "float",
+                                "data": 3,
+                                "name": "blendType"
+                            }
+                        ],
+                        "shader": "phong"
+                    }
+                },
+                "a6ce6208-1f5c-11e4-a41b-22000a4a0339": {
+                    "name": "",
+                    "resource_id": "a6ce6208-1f5c-11e4-a41b-22000a4a0339",
+                    "has_thumbnail": false,
+                    "file": null,
+                    "type": "material",
+                    "data": {
+                        "name": "",
+                        "parameters": [
+                            {
+                                "data": [
+                                    0.5,
+                                    0.5,
+                                    0.5
+                                ],
+                                "type": "vec3",
+                                "name": "ambient"
+                            },
+                            {
+                                "data": [
+                                    0.5,
+                                    0.5,
+                                    0.5
+                                ],
+                                "type": "vec3",
+                                "name": "diffuse"
+                            },
+                            {
+                                "data": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "type": "vec3",
+                                "name": "specular"
+                            },
+                            {
+                                "data": 0,
+                                "type": "float",
+                                "name": "shininess"
+                            },
+                            {
+                                "data": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "type": "vec3",
+                                "name": "emissive"
+                            },
+                            {
+                                "data": 1,
+                                "type": "float",
+                                "name": "opacity"
+                            },
+                            {
+                                "type": "float",
+                                "data": 3,
+                                "name": "blendType"
+                            }
+                        ],
+                        "shader": "phong"
+                    }
+                },
+                "a6cef358-1f5c-11e4-a41b-22000a4a0339": {
+                    "name": "Material",
+                    "resource_id": "a6cef358-1f5c-11e4-a41b-22000a4a0339",
+                    "has_thumbnail": false,
+                    "file": null,
+                    "type": "material",
+                    "data": {
+                        "name": "Material",
+                        "parameters": [
+                            {
+                                "type": "vec3",
+                                "data": [
+                                    0.20000000298023224,
+                                    0.20000000298023224,
+                                    0.20000000298023224
+                                ],
+                                "name": "ambient"
+                            },
+                            {
+                                "type": "vec3",
+                                "data": [
+                                    0.6392157077789307,
+                                    0.6392157077789307,
+                                    0.6392157077789307
+                                ],
+                                "name": "diffuse"
+                            },
+                            {
+                                "type": "texture",
+                                "data": null,
+                                "name": "diffuseMap"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    1,
+                                    1
+                                ],
+                                "name": "diffuseMapTiling"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    0,
+                                    0
+                                ],
+                                "name": "diffuseMapOffset"
+                            },
+                            {
+                                "type": "vec3",
+                                "data": [
+                                    0.20000000298023224,
+                                    0.20000000298023224,
+                                    0.20000000298023224
+                                ],
+                                "name": "specular"
+                            },
+                            {
+                                "type": "texture",
+                                "data": null,
+                                "name": "specularMap"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    1,
+                                    1
+                                ],
+                                "name": "specularMapTiling"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    0,
+                                    0
+                                ],
+                                "name": "specularMapOffset"
+                            },
+                            {
+                                "type": "float",
+                                "data": 20,
+                                "name": "shininess"
+                            },
+                            {
+                                "type": "texture",
+                                "data": null,
+                                "name": "glossMap"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    1,
+                                    1
+                                ],
+                                "name": "glossMapTiling"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    0,
+                                    0
+                                ],
+                                "name": "glossMapOffset"
+                            },
+                            {
+                                "type": "vec3",
+                                "data": [
+                                    0.800000011920929,
+                                    0.800000011920929,
+                                    0.800000011920929
+                                ],
+                                "name": "emissive"
+                            },
+                            {
+                                "type": "texture",
+                                "data": null,
+                                "name": "emissiveMap"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    1,
+                                    1
+                                ],
+                                "name": "emissiveMapTiling"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    0,
+                                    0
+                                ],
+                                "name": "emissiveMapOffset"
+                            },
+                            {
+                                "type": "float",
+                                "data": 0.54,
+                                "name": "opacity"
+                            },
+                            {
+                                "type": "texture",
+                                "data": null,
+                                "name": "opacityMap"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    1,
+                                    1
+                                ],
+                                "name": "opacityMapTiling"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    0,
+                                    0
+                                ],
+                                "name": "opacityMapOffset"
+                            },
+                            {
+                                "type": "float",
+                                "data": 1,
+                                "name": "bumpMapFactor"
+                            },
+                            {
+                                "type": "texture",
+                                "data": null,
+                                "name": "normalMap"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    1,
+                                    1
+                                ],
+                                "name": "normalMapTiling"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    0,
+                                    0
+                                ],
+                                "name": "normalMapOffset"
+                            },
+                            {
+                                "type": "float",
+                                "data": 1,
+                                "name": "reflectivity"
+                            },
+                            {
+                                "type": "texture",
+                                "data": null,
+                                "name": "sphereMap"
+                            },
+                            {
+                                "type": "texture",
+                                "data": null,
+                                "name": "lightMap"
+                            },
+                            {
+                                "type": "boolean",
+                                "data": false,
+                                "name": "depthTest"
+                            },
+                            {
+                                "type": "boolean",
+                                "data": true,
+                                "name": "depthWrite"
+                            },
+                            {
+                                "type": "float",
+                                "data": 1,
+                                "name": "cull"
+                            },
+                            {
+                                "type": "float",
+                                "data": 2,
+                                "name": "blendType"
+                            }
+                        ],
+                        "shader": "phong"
+                    }
+                },
+                "8e9f544e-1f5c-11e4-a41b-22000a4a0339": {
+                    "name": "football_ball",
+                    "resource_id": "8e9f544e-1f5c-11e4-a41b-22000a4a0339",
+                    "has_thumbnail": false,
+                    "file": {
+                        "url": "assets/josepedrodias/football/8e/8e9f544e-1f5c-11e4-a41b-22000a4a0339/football_ball.json",
+                        "size": 23305,
+                        "hash": "c1d4743de28cc1f29ab434ba9a06e7fc",
+                        "filename": "football_ball.json"
+                    },
+                    "type": "model",
+                    "data": {
+                        "mapping": [
+                            {
+                                "material": "8f5096e6-1f5c-11e4-a41b-22000a4a0339"
+                            },
+                            {
+                                "material": "8f510bc6-1f5c-11e4-a41b-22000a4a0339"
+                            }
+                        ]
+                    }
+                },
+                "a5c9fd04-1f5c-11e4-a41b-22000a4a0339": {
+                    "name": "football_field5",
+                    "resource_id": "a5c9fd04-1f5c-11e4-a41b-22000a4a0339",
+                    "has_thumbnail": false,
+                    "file": {
+                        "url": "assets/josepedrodias/football/a5/a5c9fd04-1f5c-11e4-a41b-22000a4a0339/football_field5.json",
+                        "size": 24861,
+                        "hash": "0afc6b1db5f515785f4b91c9dc92c0c9",
+                        "filename": "football_field5.json"
+                    },
+                    "type": "model",
+                    "data": {
+                        "mapping": [
+                            {
+                                "material": "a6ce6208-1f5c-11e4-a41b-22000a4a0339"
+                            },
+                            {
+                                "material": "a6cef358-1f5c-11e4-a41b-22000a4a0339"
+                            },
+                            {
+                                "material": "a6cf5442-1f5c-11e4-a41b-22000a4a0339"
+                            }
+                        ]
+                    }
+                },
+                "03715888-1e8d-11e4-b615-22000a4a0339": {
+                    "name": "Player",
+                    "resource_id": "03715888-1e8d-11e4-b615-22000a4a0339",
+                    "has_thumbnail": false,
+                    "file": null,
+                    "type": "material",
+                    "data": {
+                        "name": "Player",
+                        "parameters": [
+                            {
+                                "type": "vec3",
+                                "data": [
+                                    0.6980392336845398,
+                                    0.6980392336845398,
+                                    0.6980392336845398
+                                ],
+                                "name": "ambient"
+                            },
+                            {
+                                "type": "vec3",
+                                "data": [
+                                    0.8980392217636108,
+                                    0.20392157137393951,
+                                    0.8392156958580017
+                                ],
+                                "name": "diffuse"
+                            },
+                            {
+                                "type": "texture",
+                                "data": null,
+                                "name": "diffuseMap"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    1,
+                                    1
+                                ],
+                                "name": "diffuseMapTiling"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    0,
+                                    0
+                                ],
+                                "name": "diffuseMapOffset"
+                            },
+                            {
+                                "type": "vec3",
+                                "data": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "name": "specular"
+                            },
+                            {
+                                "type": "texture",
+                                "data": null,
+                                "name": "specularMap"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    1,
+                                    1
+                                ],
+                                "name": "specularMapTiling"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    0,
+                                    0
+                                ],
+                                "name": "specularMapOffset"
+                            },
+                            {
+                                "type": "float",
+                                "data": 25,
+                                "name": "shininess"
+                            },
+                            {
+                                "type": "texture",
+                                "data": null,
+                                "name": "glossMap"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    1,
+                                    1
+                                ],
+                                "name": "glossMapTiling"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    0,
+                                    0
+                                ],
+                                "name": "glossMapOffset"
+                            },
+                            {
+                                "type": "vec3",
+                                "data": [
+                                    0.8980392217636108,
+                                    0.20392157137393951,
+                                    0.8392156958580017
+                                ],
+                                "name": "emissive"
+                            },
+                            {
+                                "type": "texture",
+                                "data": null,
+                                "name": "emissiveMap"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    1,
+                                    1
+                                ],
+                                "name": "emissiveMapTiling"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    0,
+                                    0
+                                ],
+                                "name": "emissiveMapOffset"
+                            },
+                            {
+                                "type": "float",
+                                "data": 0.74,
+                                "name": "opacity"
+                            },
+                            {
+                                "type": "texture",
+                                "data": null,
+                                "name": "opacityMap"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    1,
+                                    1
+                                ],
+                                "name": "opacityMapTiling"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    0,
+                                    0
+                                ],
+                                "name": "opacityMapOffset"
+                            },
+                            {
+                                "type": "float",
+                                "data": 1,
+                                "name": "bumpMapFactor"
+                            },
+                            {
+                                "type": "texture",
+                                "data": null,
+                                "name": "normalMap"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    1,
+                                    1
+                                ],
+                                "name": "normalMapTiling"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    0,
+                                    0
+                                ],
+                                "name": "normalMapOffset"
+                            },
+                            {
+                                "type": "float",
+                                "data": 1,
+                                "name": "reflectivity"
+                            },
+                            {
+                                "type": "texture",
+                                "data": null,
+                                "name": "sphereMap"
+                            },
+                            {
+                                "type": "texture",
+                                "data": null,
+                                "name": "lightMap"
+                            },
+                            {
+                                "type": "boolean",
+                                "data": true,
+                                "name": "depthTest"
+                            },
+                            {
+                                "type": "boolean",
+                                "data": true,
+                                "name": "depthWrite"
+                            },
+                            {
+                                "type": "float",
+                                "data": 1,
+                                "name": "cull"
+                            },
+                            {
+                                "type": "float",
+                                "data": 2,
+                                "name": "blendType"
+                            }
+                        ],
+                        "shader": "phong"
+                    }
+                },
+                "8f5096e6-1f5c-11e4-a41b-22000a4a0339": {
+                    "name": "Material.001",
+                    "resource_id": "8f5096e6-1f5c-11e4-a41b-22000a4a0339",
+                    "has_thumbnail": false,
+                    "file": null,
+                    "type": "material",
+                    "data": {
+                        "name": "Material.001",
+                        "parameters": [
+                            {
+                                "data": [
+                                    0.2,
+                                    0.2,
+                                    0.2
+                                ],
+                                "type": "vec3",
+                                "name": "ambient"
+                            },
+                            {
+                                "data": [
+                                    0.00366149,
+                                    0.0176474,
+                                    0.0232795
+                                ],
+                                "type": "vec3",
+                                "name": "diffuse"
+                            },
+                            {
+                                "data": [
+                                    0.2,
+                                    0.2,
+                                    0.2
+                                ],
+                                "type": "vec3",
+                                "name": "specular"
+                            },
+                            {
+                                "data": 20,
+                                "type": "float",
+                                "name": "shininess"
+                            },
+                            {
+                                "data": [
+                                    0.00457686,
+                                    0.0220593,
+                                    0.0290993
+                                ],
+                                "type": "vec3",
+                                "name": "emissive"
+                            },
+                            {
+                                "data": 1,
+                                "type": "float",
+                                "name": "opacity"
+                            },
+                            {
+                                "type": "float",
+                                "data": 3,
+                                "name": "blendType"
+                            }
+                        ],
+                        "shader": "phong"
+                    }
+                },
+                "f669231e-1e8c-11e4-aad3-22000a4a0339": {
+                    "name": "Ball",
+                    "resource_id": "f669231e-1e8c-11e4-aad3-22000a4a0339",
+                    "has_thumbnail": false,
+                    "file": null,
+                    "type": "material",
+                    "data": {
+                        "name": "Ball",
+                        "parameters": [
+                            {
+                                "type": "vec3",
+                                "data": [
+                                    0.6980392336845398,
+                                    0.6980392336845398,
+                                    0.6980392336845398
+                                ],
+                                "name": "ambient"
+                            },
+                            {
+                                "type": "vec3",
+                                "data": [
+                                    0.9882352948188782,
+                                    0.9882352948188782,
+                                    0.9882352948188782
+                                ],
+                                "name": "diffuse"
+                            },
+                            {
+                                "type": "texture",
+                                "data": null,
+                                "name": "diffuseMap"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    1,
+                                    1
+                                ],
+                                "name": "diffuseMapTiling"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    0,
+                                    0
+                                ],
+                                "name": "diffuseMapOffset"
+                            },
+                            {
+                                "type": "vec3",
+                                "data": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "name": "specular"
+                            },
+                            {
+                                "type": "texture",
+                                "data": null,
+                                "name": "specularMap"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    1,
+                                    1
+                                ],
+                                "name": "specularMapTiling"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    0,
+                                    0
+                                ],
+                                "name": "specularMapOffset"
+                            },
+                            {
+                                "type": "float",
+                                "data": 25,
+                                "name": "shininess"
+                            },
+                            {
+                                "type": "texture",
+                                "data": null,
+                                "name": "glossMap"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    1,
+                                    1
+                                ],
+                                "name": "glossMapTiling"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    0,
+                                    0
+                                ],
+                                "name": "glossMapOffset"
+                            },
+                            {
+                                "type": "vec3",
+                                "data": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "name": "emissive"
+                            },
+                            {
+                                "type": "texture",
+                                "data": null,
+                                "name": "emissiveMap"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    1,
+                                    1
+                                ],
+                                "name": "emissiveMapTiling"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    0,
+                                    0
+                                ],
+                                "name": "emissiveMapOffset"
+                            },
+                            {
+                                "type": "float",
+                                "data": 1,
+                                "name": "opacity"
+                            },
+                            {
+                                "type": "texture",
+                                "data": null,
+                                "name": "opacityMap"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    1,
+                                    1
+                                ],
+                                "name": "opacityMapTiling"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    0,
+                                    0
+                                ],
+                                "name": "opacityMapOffset"
+                            },
+                            {
+                                "type": "float",
+                                "data": 1,
+                                "name": "bumpMapFactor"
+                            },
+                            {
+                                "type": "texture",
+                                "data": null,
+                                "name": "normalMap"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    1,
+                                    1
+                                ],
+                                "name": "normalMapTiling"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    0,
+                                    0
+                                ],
+                                "name": "normalMapOffset"
+                            },
+                            {
+                                "type": "float",
+                                "data": 1,
+                                "name": "reflectivity"
+                            },
+                            {
+                                "type": "texture",
+                                "data": null,
+                                "name": "sphereMap"
+                            },
+                            {
+                                "type": "texture",
+                                "data": null,
+                                "name": "lightMap"
+                            },
+                            {
+                                "type": "boolean",
+                                "data": true,
+                                "name": "depthTest"
+                            },
+                            {
+                                "type": "boolean",
+                                "data": true,
+                                "name": "depthWrite"
+                            },
+                            {
+                                "type": "float",
+                                "data": 1,
+                                "name": "cull"
+                            },
+                            {
+                                "type": "float",
+                                "data": 3,
+                                "name": "blendType"
+                            }
+                        ],
+                        "shader": "phong"
+                    }
+                },
+                "953303a0-1f5c-11e4-a41b-22000a4a0339": {
+                    "name": "beacon",
+                    "resource_id": "953303a0-1f5c-11e4-a41b-22000a4a0339",
+                    "has_thumbnail": false,
+                    "file": {
+                        "url": "assets/josepedrodias/football/95/953303a0-1f5c-11e4-a41b-22000a4a0339/beacon.json",
+                        "size": 3014,
+                        "hash": "7b9d13ba7d8730a0e025c933b8379aad",
+                        "filename": "beacon.json"
+                    },
+                    "type": "model",
+                    "data": {
+                        "mapping": [
+                            {
+                                "material": "963ed0e4-1f5c-11e4-a41b-22000a4a0339"
+                            }
+                        ]
+                    }
+                },
+                "a6cf5442-1f5c-11e4-a41b-22000a4a0339": {
+                    "name": "Grass",
+                    "resource_id": "a6cf5442-1f5c-11e4-a41b-22000a4a0339",
+                    "has_thumbnail": false,
+                    "file": null,
+                    "type": "material",
+                    "data": {
+                        "name": "Grass",
+                        "parameters": [
+                            {
+                                "type": "vec3",
+                                "data": [
+                                    0.20000000298023224,
+                                    0.20000000298023224,
+                                    0.20000000298023224
+                                ],
+                                "name": "ambient"
+                            },
+                            {
+                                "type": "vec3",
+                                "data": [
+                                    0,
+                                    0.6392157077789307,
+                                    0.12941177189350128
+                                ],
+                                "name": "diffuse"
+                            },
+                            {
+                                "type": "texture",
+                                "data": "a8857b20-1f68-11e4-a41b-22000a4a0339",
+                                "name": "diffuseMap"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    32,
+                                    32
+                                ],
+                                "name": "diffuseMapTiling"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    0,
+                                    0
+                                ],
+                                "name": "diffuseMapOffset"
+                            },
+                            {
+                                "type": "vec3",
+                                "data": [
+                                    0.20000000298023224,
+                                    0.20000000298023224,
+                                    0.20000000298023224
+                                ],
+                                "name": "specular"
+                            },
+                            {
+                                "type": "texture",
+                                "data": null,
+                                "name": "specularMap"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    1,
+                                    1
+                                ],
+                                "name": "specularMapTiling"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    0,
+                                    0
+                                ],
+                                "name": "specularMapOffset"
+                            },
+                            {
+                                "type": "float",
+                                "data": 4.88,
+                                "name": "shininess"
+                            },
+                            {
+                                "type": "texture",
+                                "data": null,
+                                "name": "glossMap"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    1,
+                                    1
+                                ],
+                                "name": "glossMapTiling"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    0,
+                                    0
+                                ],
+                                "name": "glossMapOffset"
+                            },
+                            {
+                                "type": "vec3",
+                                "data": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "name": "emissive"
+                            },
+                            {
+                                "type": "texture",
+                                "data": null,
+                                "name": "emissiveMap"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    1,
+                                    1
+                                ],
+                                "name": "emissiveMapTiling"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    0,
+                                    0
+                                ],
+                                "name": "emissiveMapOffset"
+                            },
+                            {
+                                "type": "float",
+                                "data": 1,
+                                "name": "opacity"
+                            },
+                            {
+                                "type": "texture",
+                                "data": null,
+                                "name": "opacityMap"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    1,
+                                    1
+                                ],
+                                "name": "opacityMapTiling"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    0,
+                                    0
+                                ],
+                                "name": "opacityMapOffset"
+                            },
+                            {
+                                "type": "float",
+                                "data": 1,
+                                "name": "bumpMapFactor"
+                            },
+                            {
+                                "type": "texture",
+                                "data": null,
+                                "name": "normalMap"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    32,
+                                    32
+                                ],
+                                "name": "normalMapTiling"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    0,
+                                    0
+                                ],
+                                "name": "normalMapOffset"
+                            },
+                            {
+                                "type": "float",
+                                "data": 1,
+                                "name": "reflectivity"
+                            },
+                            {
+                                "type": "texture",
+                                "data": null,
+                                "name": "sphereMap"
+                            },
+                            {
+                                "type": "texture",
+                                "data": null,
+                                "name": "lightMap"
+                            },
+                            {
+                                "type": "boolean",
+                                "data": true,
+                                "name": "depthTest"
+                            },
+                            {
+                                "type": "boolean",
+                                "data": true,
+                                "name": "depthWrite"
+                            },
+                            {
+                                "type": "float",
+                                "data": 1,
+                                "name": "cull"
+                            },
+                            {
+                                "type": "float",
+                                "data": 3,
+                                "name": "blendType"
+                            }
+                        ],
+                        "shader": "phong"
+                    }
+                },
+                "a8857b20-1f68-11e4-a41b-22000a4a0339": {
+                    "name": "grass",
+                    "resource_id": "a8857b20-1f68-11e4-a41b-22000a4a0339",
+                    "has_thumbnail": true,
+                    "file": {
+                        "url": "assets/josepedrodias/football/a8/a8857b20-1f68-11e4-a41b-22000a4a0339/grass.jpg",
+                        "filename": "grass.jpg",
+                        "hash": "222f175b93c73f13d042f8e651946147",
+                        "size": 566167
+                    },
+                    "type": "texture",
+                    "data": {
+                        "minfilter": "linear_mip_linear",
+                        "name": "grass",
+                        "magfilter": "linear",
+                        "addressu": "repeat",
+                        "addressv": "repeat",
+                        "anisotropy": 1
+                    },
+                    "thumbnails": {
+                        "s": "http://s3-eu-west-1.amazonaws.com/images.playcanvas.com/assets/5056/253760/a8857b20-1f68-11e4-a41b-22000a4a0339/small.jpg",
+                        "m": "http://s3-eu-west-1.amazonaws.com/images.playcanvas.com/assets/5056/253760/a8857b20-1f68-11e4-a41b-22000a4a0339/medium.jpg",
+                        "l": "http://s3-eu-west-1.amazonaws.com/images.playcanvas.com/assets/5056/253760/a8857b20-1f68-11e4-a41b-22000a4a0339/large.jpg",
+                        "xl": "http://s3-eu-west-1.amazonaws.com/images.playcanvas.com/assets/5056/253760/a8857b20-1f68-11e4-a41b-22000a4a0339/xlarge.jpg"
+                    }
+                },
+                "963ed0e4-1f5c-11e4-a41b-22000a4a0339": {
+                    "name": "Beacon",
+                    "resource_id": "963ed0e4-1f5c-11e4-a41b-22000a4a0339",
+                    "has_thumbnail": false,
+                    "file": null,
+                    "type": "material",
+                    "data": {
+                        "name": "Beacon",
+                        "parameters": [
+                            {
+                                "type": "vec3",
+                                "data": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "name": "ambient"
+                            },
+                            {
+                                "type": "vec3",
+                                "data": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "name": "diffuse"
+                            },
+                            {
+                                "type": "texture",
+                                "data": null,
+                                "name": "diffuseMap"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    1,
+                                    1
+                                ],
+                                "name": "diffuseMapTiling"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    0,
+                                    0
+                                ],
+                                "name": "diffuseMapOffset"
+                            },
+                            {
+                                "type": "vec3",
+                                "data": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "name": "specular"
+                            },
+                            {
+                                "type": "texture",
+                                "data": null,
+                                "name": "specularMap"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    1,
+                                    1
+                                ],
+                                "name": "specularMapTiling"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    0,
+                                    0
+                                ],
+                                "name": "specularMapOffset"
+                            },
+                            {
+                                "type": "float",
+                                "data": 0,
+                                "name": "shininess"
+                            },
+                            {
+                                "type": "texture",
+                                "data": null,
+                                "name": "glossMap"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    1,
+                                    1
+                                ],
+                                "name": "glossMapTiling"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    0,
+                                    0
+                                ],
+                                "name": "glossMapOffset"
+                            },
+                            {
+                                "type": "vec3",
+                                "data": [
+                                    0,
+                                    0.30588236451148987,
+                                    0.9803921580314636
+                                ],
+                                "name": "emissive"
+                            },
+                            {
+                                "type": "texture",
+                                "data": null,
+                                "name": "emissiveMap"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    1,
+                                    1
+                                ],
+                                "name": "emissiveMapTiling"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    0,
+                                    0
+                                ],
+                                "name": "emissiveMapOffset"
+                            },
+                            {
+                                "type": "float",
+                                "data": 0.66,
+                                "name": "opacity"
+                            },
+                            {
+                                "type": "texture",
+                                "data": null,
+                                "name": "opacityMap"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    1,
+                                    1
+                                ],
+                                "name": "opacityMapTiling"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    0,
+                                    0
+                                ],
+                                "name": "opacityMapOffset"
+                            },
+                            {
+                                "type": "float",
+                                "data": 1,
+                                "name": "bumpMapFactor"
+                            },
+                            {
+                                "type": "texture",
+                                "data": null,
+                                "name": "normalMap"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    1,
+                                    1
+                                ],
+                                "name": "normalMapTiling"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    0,
+                                    0
+                                ],
+                                "name": "normalMapOffset"
+                            },
+                            {
+                                "type": "float",
+                                "data": 1,
+                                "name": "reflectivity"
+                            },
+                            {
+                                "type": "texture",
+                                "data": null,
+                                "name": "sphereMap"
+                            },
+                            {
+                                "type": "texture",
+                                "data": null,
+                                "name": "lightMap"
+                            },
+                            {
+                                "type": "boolean",
+                                "data": true,
+                                "name": "depthTest"
+                            },
+                            {
+                                "type": "boolean",
+                                "data": true,
+                                "name": "depthWrite"
+                            },
+                            {
+                                "type": "float",
+                                "data": 1,
+                                "name": "cull"
+                            },
+                            {
+                                "type": "float",
+                                "data": 2,
+                                "name": "blendType"
+                            }
+                        ],
+                        "shader": "phong"
+                    }
+                },
+                "d997651e-1d12-11e4-a41b-22000a4a0339": {
+                    "name": "net",
+                    "resource_id": "d997651e-1d12-11e4-a41b-22000a4a0339",
+                    "has_thumbnail": false,
+                    "file": null,
+                    "type": "material",
+                    "data": {
+                        "name": "net",
+                        "parameters": [
+                            {
+                                "type": "vec3",
+                                "data": [
+                                    0.2666666805744171,
+                                    0.2549019753932953,
+                                    0.2549019753932953
+                                ],
+                                "name": "ambient"
+                            },
+                            {
+                                "type": "vec3",
+                                "data": [
+                                    0.49803921580314636,
+                                    0.49803921580314636,
+                                    0.49803921580314636
+                                ],
+                                "name": "diffuse"
+                            },
+                            {
+                                "type": "texture",
+                                "data": null,
+                                "name": "diffuseMap"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    1,
+                                    1
+                                ],
+                                "name": "diffuseMapTiling"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    0,
+                                    0
+                                ],
+                                "name": "diffuseMapOffset"
+                            },
+                            {
+                                "type": "vec3",
+                                "data": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "name": "specular"
+                            },
+                            {
+                                "type": "texture",
+                                "data": null,
+                                "name": "specularMap"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    1,
+                                    1
+                                ],
+                                "name": "specularMapTiling"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    0,
+                                    0
+                                ],
+                                "name": "specularMapOffset"
+                            },
+                            {
+                                "type": "float",
+                                "data": 0,
+                                "name": "shininess"
+                            },
+                            {
+                                "type": "texture",
+                                "data": null,
+                                "name": "glossMap"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    1,
+                                    1
+                                ],
+                                "name": "glossMapTiling"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    0,
+                                    0
+                                ],
+                                "name": "glossMapOffset"
+                            },
+                            {
+                                "type": "vec3",
+                                "data": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "name": "emissive"
+                            },
+                            {
+                                "type": "texture",
+                                "data": null,
+                                "name": "emissiveMap"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    1,
+                                    1
+                                ],
+                                "name": "emissiveMapTiling"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    0,
+                                    0
+                                ],
+                                "name": "emissiveMapOffset"
+                            },
+                            {
+                                "type": "float",
+                                "data": 0.37,
+                                "name": "opacity"
+                            },
+                            {
+                                "type": "texture",
+                                "data": null,
+                                "name": "opacityMap"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    1,
+                                    1
+                                ],
+                                "name": "opacityMapTiling"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    0,
+                                    0
+                                ],
+                                "name": "opacityMapOffset"
+                            },
+                            {
+                                "type": "float",
+                                "data": 1,
+                                "name": "bumpMapFactor"
+                            },
+                            {
+                                "type": "texture",
+                                "data": null,
+                                "name": "normalMap"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    1,
+                                    1
+                                ],
+                                "name": "normalMapTiling"
+                            },
+                            {
+                                "type": "vec2",
+                                "data": [
+                                    0,
+                                    0
+                                ],
+                                "name": "normalMapOffset"
+                            },
+                            {
+                                "type": "float",
+                                "data": 1,
+                                "name": "reflectivity"
+                            },
+                            {
+                                "type": "texture",
+                                "data": null,
+                                "name": "sphereMap"
+                            },
+                            {
+                                "type": "texture",
+                                "data": null,
+                                "name": "lightMap"
+                            },
+                            {
+                                "type": "boolean",
+                                "data": true,
+                                "name": "depthTest"
+                            },
+                            {
+                                "type": "boolean",
+                                "data": true,
+                                "name": "depthWrite"
+                            },
+                            {
+                                "type": "float",
+                                "data": 1,
+                                "name": "cull"
+                            },
+                            {
+                                "type": "float",
+                                "data": 2,
+                                "name": "blendType"
+                            }
+                        ],
+                        "shader": "phong"
+                    }
+                }
+            },
+            "packs": [
+                "051f8df6-1d13-11e4-a911-22000a4a0339"
+            ]
+        }
+    },
+    "packs": {
+        "051f8df6-1d13-11e4-a911-22000a4a0339": {
+            "name": "demoField",
+            "resource_id": "051f8df6-1d13-11e4-a911-22000a4a0339",
+            "settings": {
+                "physics": {
+                    "gravity": [
+                        0,
+                        -9.8,
+                        0
+                    ]
+                },
+                "render": {
+                    "fog_end": 1000,
+                    "fog_start": 1,
+                    "shadow_distance": 20,
+                    "global_ambient": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "fog_color": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "fog": "none",
+                    "fog_density": 0.01
+                }
+            },
+            "hierarchy": {
+                "scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "name": "demoField",
+                "parent": null,
+                "resource_id": "051f8df6-1d13-11e4-a911-22000a4a0339",
+                "labels": [],
+                "enabled": true,
+                "components": {
+                    "script": {
+                        "enabled": true,
+                        "scripts": [
+                            {
+                                "url": "input.js",
+                                "attributes": [],
+                                "name": "input"
+                            },
+                            {
+                                "url": "director.js",
+                                "attributes": [],
+                                "name": "director"
+                            },
+                            {
+                                "url": "referee.js",
+                                "attributes": [],
+                                "name": "referee"
+                            }
+                        ]
+                    },
+                    "pack": {}
+                },
+                "position": [
+                    0,
+                    0,
+                    0
+                ],
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "children": [
+                    {
+                        "scale": [
+                            74,
+                            1,
+                            110
+                        ],
+                        "name": "FieldGround",
+                        "parent": "051f8df6-1d13-11e4-a911-22000a4a0339",
+                        "resource_id": "58af117a-a191-4bd8-8e41-2d9dc7068721",
+                        "labels": [],
+                        "enabled": true,
+                        "components": {
+                            "rigidbody": {
+                                "linearDamping": 0,
+                                "enabled": true,
+                                "friction": 0.75,
+                                "mass": 1,
+                                "angularDamping": 0,
+                                "linearFactor": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "type": "static",
+                                "angularFactor": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "restitution": 0
+                            },
+                            "collision": {
+                                "enabled": true,
+                                "halfExtents": [
+                                    35,
+                                    0.5,
+                                    55
+                                ],
+                                "height": 2,
+                                "radius": 0.5,
+                                "asset": null,
+                                "type": "box",
+                                "axis": 1
+                            },
+                            "model": {
+                                "materialAsset": null,
+                                "receiveShadows": false,
+                                "enabled": false,
+                                "castShadows": false,
+                                "asset": null,
+                                "type": "box"
+                            }
+                        },
+                        "position": [
+                            0,
+                            -0.5,
+                            0
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "children": [],
+                        "template": null
+                    },
+                    {
+                        "scale": [
+                            0.8,
+                            1.8,
+                            0.8
+                        ],
+                        "name": "Player",
+                        "parent": "051f8df6-1d13-11e4-a911-22000a4a0339",
+                        "resource_id": "a15e65e6-edaf-4019-b9a1-3043d834e1ea",
+                        "labels": [],
+                        "enabled": true,
+                        "components": {
+                            "rigidbody": {
+                                "linearDamping": 0,
+                                "enabled": true,
+                                "friction": 0.5,
+                                "mass": 90,
+                                "angularDamping": 0,
+                                "linearFactor": [
+                                    1,
+                                    0,
+                                    1
+                                ],
+                                "type": "kinematic",
+                                "angularFactor": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "restitution": 0
+                            },
+                            "collision": {
+                                "enabled": true,
+                                "halfExtents": [
+                                    0.75,
+                                    1.5,
+                                    0.75
+                                ],
+                                "height": 2,
+                                "radius": 0.4,
+                                "asset": null,
+                                "type": "cylinder",
+                                "axis": 1
+                            },
+                            "model": {
+                                "materialAsset": "03715888-1e8d-11e4-b615-22000a4a0339",
+                                "receiveShadows": true,
+                                "enabled": true,
+                                "castShadows": true,
+                                "asset": null,
+                                "type": "cylinder"
+                            },
+                            "script": {
+                                "enabled": true,
+                                "scripts": [
+                                    {
+                                        "url": "player.js",
+                                        "attributes": [
+                                            {
+                                                "displayName": "runSpeed",
+                                                "name": "runSpeed",
+                                                "defaultValue": 500,
+                                                "value": 6,
+                                                "type": "number",
+                                                "options": {}
+                                            },
+                                            {
+                                                "displayName": "strafeSpeed",
+                                                "name": "strafeSpeed",
+                                                "defaultValue": 500,
+                                                "value": 4,
+                                                "type": "number",
+                                                "options": {}
+                                            }
+                                        ],
+                                        "name": "player"
+                                    }
+                                ]
+                            }
+                        },
+                        "position": [
+                            0,
+                            0.9,
+                            2
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "children": [
+                            {
+                                "scale": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "name": "beacon",
+                                "parent": "a15e65e6-edaf-4019-b9a1-3043d834e1ea",
+                                "resource_id": "2c461e7a-e4ca-4e1c-baaf-19ed21bd3b17",
+                                "labels": [],
+                                "enabled": true,
+                                "components": {
+                                    "model": {
+                                        "materialAsset": null,
+                                        "receiveShadows": true,
+                                        "enabled": true,
+                                        "castShadows": false,
+                                        "asset": "953303a0-1f5c-11e4-a41b-22000a4a0339",
+                                        "type": "asset"
+                                    }
+                                },
+                                "position": [
+                                    0,
+                                    -0.45,
+                                    0
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "children": [],
+                                "template": null
+                            }
+                        ],
+                        "template": null
+                    },
+                    {
+                        "scale": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "name": "Goal",
+                        "parent": "051f8df6-1d13-11e4-a911-22000a4a0339",
+                        "resource_id": "4efe1e44-16e7-486b-8e11-02e28afca498",
+                        "labels": [],
+                        "enabled": true,
+                        "components": {},
+                        "position": [
+                            0,
+                            0,
+                            50
+                        ],
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ],
+                        "children": [
+                            {
+                                "scale": [
+                                    7.32,
+                                    2.44,
+                                    0.2
+                                ],
+                                "name": "Back",
+                                "parent": "4efe1e44-16e7-486b-8e11-02e28afca498",
+                                "resource_id": "64cad5a2-f43a-4b80-8084-2e2639f48475",
+                                "labels": [],
+                                "enabled": true,
+                                "components": {
+                                    "rigidbody": {
+                                        "linearDamping": 0,
+                                        "enabled": true,
+                                        "friction": 0.5,
+                                        "mass": 1,
+                                        "angularDamping": 0,
+                                        "linearFactor": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "type": "static",
+                                        "angularFactor": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "restitution": 0.5
+                                    },
+                                    "collision": {
+                                        "enabled": true,
+                                        "halfExtents": [
+                                            3.66,
+                                            1.22,
+                                            0.1
+                                        ],
+                                        "height": 2,
+                                        "radius": 0.5,
+                                        "asset": null,
+                                        "type": "box",
+                                        "axis": 1
+                                    },
+                                    "model": {
+                                        "materialAsset": "d997651e-1d12-11e4-a41b-22000a4a0339",
+                                        "receiveShadows": true,
+                                        "enabled": true,
+                                        "castShadows": true,
+                                        "asset": null,
+                                        "type": "box"
+                                    }
+                                },
+                                "position": [
+                                    0,
+                                    1.22,
+                                    -1
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "children": [],
+                                "template": null
+                            },
+                            {
+                                "scale": [
+                                    0.2,
+                                    2.44,
+                                    1
+                                ],
+                                "name": "Left",
+                                "parent": "4efe1e44-16e7-486b-8e11-02e28afca498",
+                                "resource_id": "757ad3cb-eb4d-4af3-8e9f-bfb007ba243b",
+                                "labels": [],
+                                "enabled": true,
+                                "components": {
+                                    "rigidbody": {
+                                        "linearDamping": 0,
+                                        "enabled": true,
+                                        "friction": 0.5,
+                                        "mass": 1,
+                                        "angularDamping": 0,
+                                        "linearFactor": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "type": "static",
+                                        "angularFactor": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "restitution": 0.5
+                                    },
+                                    "collision": {
+                                        "enabled": true,
+                                        "halfExtents": [
+                                            0.1,
+                                            1.22,
+                                            0.5
+                                        ],
+                                        "height": 2,
+                                        "radius": 0.5,
+                                        "asset": null,
+                                        "type": "box",
+                                        "axis": 1
+                                    },
+                                    "model": {
+                                        "materialAsset": "d997651e-1d12-11e4-a41b-22000a4a0339",
+                                        "receiveShadows": true,
+                                        "enabled": true,
+                                        "castShadows": true,
+                                        "asset": null,
+                                        "type": "box"
+                                    }
+                                },
+                                "position": [
+                                    -3.66,
+                                    1.22,
+                                    -0.5
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "children": [],
+                                "template": null
+                            },
+                            {
+                                "scale": [
+                                    7.32,
+                                    0.2,
+                                    1
+                                ],
+                                "name": "Top",
+                                "parent": "4efe1e44-16e7-486b-8e11-02e28afca498",
+                                "resource_id": "96f924a0-c834-408e-92ae-be53e2c3dc2a",
+                                "labels": [],
+                                "enabled": true,
+                                "components": {
+                                    "rigidbody": {
+                                        "linearDamping": 0,
+                                        "enabled": true,
+                                        "friction": 0.5,
+                                        "mass": 1,
+                                        "angularDamping": 0,
+                                        "linearFactor": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "type": "static",
+                                        "angularFactor": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "restitution": 0.5
+                                    },
+                                    "collision": {
+                                        "enabled": true,
+                                        "halfExtents": [
+                                            3.66,
+                                            0.1,
+                                            0.5
+                                        ],
+                                        "height": 2,
+                                        "radius": 0.5,
+                                        "asset": null,
+                                        "type": "box",
+                                        "axis": 1
+                                    },
+                                    "model": {
+                                        "materialAsset": "d997651e-1d12-11e4-a41b-22000a4a0339",
+                                        "receiveShadows": true,
+                                        "enabled": true,
+                                        "castShadows": true,
+                                        "asset": null,
+                                        "type": "box"
+                                    }
+                                },
+                                "position": [
+                                    0,
+                                    2.44,
+                                    -0.5
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "children": [],
+                                "template": null
+                            },
+                            {
+                                "scale": [
+                                    0.2,
+                                    2.44,
+                                    1
+                                ],
+                                "name": "Right",
+                                "parent": "4efe1e44-16e7-486b-8e11-02e28afca498",
+                                "resource_id": "886d5f67-aefa-44dd-8187-3dd411f34640",
+                                "labels": [],
+                                "enabled": true,
+                                "components": {
+                                    "rigidbody": {
+                                        "linearDamping": 0,
+                                        "enabled": true,
+                                        "friction": 0.5,
+                                        "mass": 1,
+                                        "angularDamping": 0,
+                                        "linearFactor": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "type": "static",
+                                        "angularFactor": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "restitution": 0.5
+                                    },
+                                    "collision": {
+                                        "enabled": true,
+                                        "halfExtents": [
+                                            0.1,
+                                            1.22,
+                                            0.5
+                                        ],
+                                        "height": 2,
+                                        "radius": 0.5,
+                                        "asset": null,
+                                        "type": "box",
+                                        "axis": 1
+                                    },
+                                    "model": {
+                                        "materialAsset": "d997651e-1d12-11e4-a41b-22000a4a0339",
+                                        "receiveShadows": true,
+                                        "enabled": true,
+                                        "castShadows": true,
+                                        "asset": null,
+                                        "type": "box"
+                                    }
+                                },
+                                "position": [
+                                    3.66,
+                                    1.22,
+                                    -0.5
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "children": [],
+                                "template": null
+                            },
+                            {
+                                "scale": [
+                                    0.25,
+                                    7.32,
+                                    0.25
+                                ],
+                                "name": "TopBar",
+                                "parent": "4efe1e44-16e7-486b-8e11-02e28afca498",
+                                "resource_id": "a88d850f-2c9f-48dd-8f44-281831d2cd87",
+                                "labels": [],
+                                "enabled": true,
+                                "components": {
+                                    "rigidbody": {
+                                        "linearDamping": 0,
+                                        "enabled": true,
+                                        "friction": 0.5,
+                                        "mass": 1,
+                                        "angularDamping": 0,
+                                        "linearFactor": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "type": "static",
+                                        "angularFactor": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "restitution": 0.75
+                                    },
+                                    "collision": {
+                                        "enabled": true,
+                                        "halfExtents": [
+                                            0.5,
+                                            0.5,
+                                            0.5
+                                        ],
+                                        "height": 7.32,
+                                        "radius": 0.13,
+                                        "asset": null,
+                                        "type": "cylinder",
+                                        "axis": 1
+                                    },
+                                    "model": {
+                                        "materialAsset": null,
+                                        "receiveShadows": true,
+                                        "enabled": true,
+                                        "castShadows": true,
+                                        "asset": null,
+                                        "type": "cylinder"
+                                    }
+                                },
+                                "position": [
+                                    0,
+                                    2.44,
+                                    0
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    90
+                                ],
+                                "children": [],
+                                "template": null
+                            },
+                            {
+                                "scale": [
+                                    0.25,
+                                    2.44,
+                                    0.25
+                                ],
+                                "name": "RightBar",
+                                "parent": "4efe1e44-16e7-486b-8e11-02e28afca498",
+                                "resource_id": "30cd5235-ad62-43cf-acd4-da12a218145a",
+                                "labels": [],
+                                "enabled": true,
+                                "components": {
+                                    "rigidbody": {
+                                        "linearDamping": 0,
+                                        "enabled": true,
+                                        "friction": 0.5,
+                                        "mass": 1,
+                                        "angularDamping": 0,
+                                        "linearFactor": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "type": "static",
+                                        "angularFactor": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "restitution": 0.75
+                                    },
+                                    "collision": {
+                                        "enabled": true,
+                                        "halfExtents": [
+                                            0.5,
+                                            0.5,
+                                            0.5
+                                        ],
+                                        "height": 2.44,
+                                        "radius": 0.13,
+                                        "asset": null,
+                                        "type": "cylinder",
+                                        "axis": 1
+                                    },
+                                    "model": {
+                                        "materialAsset": null,
+                                        "receiveShadows": true,
+                                        "enabled": true,
+                                        "castShadows": true,
+                                        "asset": null,
+                                        "type": "cylinder"
+                                    }
+                                },
+                                "position": [
+                                    3.66,
+                                    1.22,
+                                    0
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "children": [],
+                                "template": null
+                            },
+                            {
+                                "scale": [
+                                    0.25,
+                                    2.44,
+                                    0.25
+                                ],
+                                "name": "LeftBar",
+                                "parent": "4efe1e44-16e7-486b-8e11-02e28afca498",
+                                "resource_id": "7a0be235-3ec2-4cd6-98d0-e72026d013f4",
+                                "labels": [],
+                                "enabled": true,
+                                "components": {
+                                    "rigidbody": {
+                                        "linearDamping": 0,
+                                        "enabled": true,
+                                        "friction": 0.5,
+                                        "mass": 1,
+                                        "angularDamping": 0,
+                                        "linearFactor": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "type": "static",
+                                        "angularFactor": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "restitution": 0.75
+                                    },
+                                    "collision": {
+                                        "enabled": true,
+                                        "halfExtents": [
+                                            0.5,
+                                            0.5,
+                                            0.5
+                                        ],
+                                        "height": 2.44,
+                                        "radius": 0.13,
+                                        "asset": null,
+                                        "type": "cylinder",
+                                        "axis": 1
+                                    },
+                                    "model": {
+                                        "materialAsset": null,
+                                        "receiveShadows": true,
+                                        "enabled": true,
+                                        "castShadows": true,
+                                        "asset": null,
+                                        "type": "cylinder"
+                                    }
+                                },
+                                "position": [
+                                    -3.66,
+                                    1.22,
+                                    0
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "children": [],
+                                "template": null
+                            }
+                        ],
+                        "template": null
+                    },
+                    {
+                        "scale": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "name": "Field",
+                        "parent": "051f8df6-1d13-11e4-a911-22000a4a0339",
+                        "resource_id": "4edcc3c3-8583-4b21-9e61-e1b30a9dcc6d",
+                        "labels": [],
+                        "enabled": true,
+                        "components": {
+                            "model": {
+                                "materialAsset": null,
+                                "receiveShadows": true,
+                                "enabled": true,
+                                "castShadows": false,
+                                "asset": "a5c9fd04-1f5c-11e4-a41b-22000a4a0339",
+                                "type": "asset"
+                            }
+                        },
+                        "position": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "children": [],
+                        "template": null
+                    },
+                    {
+                        "scale": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "name": "Goal",
+                        "parent": "051f8df6-1d13-11e4-a911-22000a4a0339",
+                        "resource_id": "7dc53b37-923f-49e9-96fb-930fb9855eb1",
+                        "labels": [],
+                        "enabled": true,
+                        "components": {},
+                        "position": [
+                            0,
+                            0,
+                            -50
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "children": [
+                            {
+                                "scale": [
+                                    7.32,
+                                    0.2,
+                                    1
+                                ],
+                                "name": "Top",
+                                "parent": "7dc53b37-923f-49e9-96fb-930fb9855eb1",
+                                "resource_id": "451f66d2-44b2-4ea3-b9f1-d9d1982970f1",
+                                "labels": [],
+                                "enabled": true,
+                                "components": {
+                                    "rigidbody": {
+                                        "linearDamping": 0,
+                                        "enabled": true,
+                                        "friction": 0.5,
+                                        "mass": 1,
+                                        "angularDamping": 0,
+                                        "linearFactor": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "type": "static",
+                                        "angularFactor": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "restitution": 0.5
+                                    },
+                                    "collision": {
+                                        "enabled": true,
+                                        "halfExtents": [
+                                            3.66,
+                                            0.1,
+                                            0.5
+                                        ],
+                                        "height": 2,
+                                        "radius": 0.5,
+                                        "asset": null,
+                                        "type": "box",
+                                        "axis": 1
+                                    },
+                                    "model": {
+                                        "materialAsset": "d997651e-1d12-11e4-a41b-22000a4a0339",
+                                        "receiveShadows": true,
+                                        "enabled": true,
+                                        "castShadows": true,
+                                        "asset": null,
+                                        "type": "box"
+                                    }
+                                },
+                                "position": [
+                                    0,
+                                    2.44,
+                                    -0.5
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "children": [],
+                                "template": null
+                            },
+                            {
+                                "scale": [
+                                    0.25,
+                                    7.32,
+                                    0.25
+                                ],
+                                "name": "TopBar",
+                                "parent": "7dc53b37-923f-49e9-96fb-930fb9855eb1",
+                                "resource_id": "f3b32424-8230-427d-9f45-7165aadb6486",
+                                "labels": [],
+                                "enabled": true,
+                                "components": {
+                                    "rigidbody": {
+                                        "linearDamping": 0,
+                                        "enabled": true,
+                                        "friction": 0.5,
+                                        "mass": 1,
+                                        "angularDamping": 0,
+                                        "linearFactor": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "type": "static",
+                                        "angularFactor": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "restitution": 0.75
+                                    },
+                                    "collision": {
+                                        "enabled": true,
+                                        "halfExtents": [
+                                            0.5,
+                                            0.5,
+                                            0.5
+                                        ],
+                                        "height": 7.32,
+                                        "radius": 0.13,
+                                        "asset": null,
+                                        "type": "cylinder",
+                                        "axis": 1
+                                    },
+                                    "model": {
+                                        "materialAsset": null,
+                                        "receiveShadows": true,
+                                        "enabled": true,
+                                        "castShadows": true,
+                                        "asset": null,
+                                        "type": "cylinder"
+                                    }
+                                },
+                                "position": [
+                                    0,
+                                    2.44,
+                                    0
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    90
+                                ],
+                                "children": [],
+                                "template": null
+                            },
+                            {
+                                "scale": [
+                                    0.25,
+                                    2.44,
+                                    0.25
+                                ],
+                                "name": "RightBar",
+                                "parent": "7dc53b37-923f-49e9-96fb-930fb9855eb1",
+                                "resource_id": "2c2414af-d277-4faa-9c05-ebbaa24d5859",
+                                "labels": [],
+                                "enabled": true,
+                                "components": {
+                                    "rigidbody": {
+                                        "linearDamping": 0,
+                                        "enabled": true,
+                                        "friction": 0.5,
+                                        "mass": 1,
+                                        "angularDamping": 0,
+                                        "linearFactor": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "type": "static",
+                                        "angularFactor": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "restitution": 0.75
+                                    },
+                                    "collision": {
+                                        "enabled": true,
+                                        "halfExtents": [
+                                            0.5,
+                                            0.5,
+                                            0.5
+                                        ],
+                                        "height": 2.44,
+                                        "radius": 0.13,
+                                        "asset": null,
+                                        "type": "cylinder",
+                                        "axis": 1
+                                    },
+                                    "model": {
+                                        "materialAsset": null,
+                                        "receiveShadows": true,
+                                        "enabled": true,
+                                        "castShadows": true,
+                                        "asset": null,
+                                        "type": "cylinder"
+                                    }
+                                },
+                                "position": [
+                                    3.66,
+                                    1.22,
+                                    0
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "children": [],
+                                "template": null
+                            },
+                            {
+                                "scale": [
+                                    7.32,
+                                    2.44,
+                                    0.2
+                                ],
+                                "name": "Back",
+                                "parent": "7dc53b37-923f-49e9-96fb-930fb9855eb1",
+                                "resource_id": "36883f96-9f5d-4104-b21d-e67b81d27f66",
+                                "labels": [],
+                                "enabled": true,
+                                "components": {
+                                    "rigidbody": {
+                                        "linearDamping": 0,
+                                        "enabled": true,
+                                        "friction": 0.5,
+                                        "mass": 1,
+                                        "angularDamping": 0,
+                                        "linearFactor": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "type": "static",
+                                        "angularFactor": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "restitution": 0.5
+                                    },
+                                    "collision": {
+                                        "enabled": true,
+                                        "halfExtents": [
+                                            3.66,
+                                            1.22,
+                                            0.1
+                                        ],
+                                        "height": 2,
+                                        "radius": 0.5,
+                                        "asset": null,
+                                        "type": "box",
+                                        "axis": 1
+                                    },
+                                    "model": {
+                                        "materialAsset": "d997651e-1d12-11e4-a41b-22000a4a0339",
+                                        "receiveShadows": true,
+                                        "enabled": true,
+                                        "castShadows": true,
+                                        "asset": null,
+                                        "type": "box"
+                                    }
+                                },
+                                "position": [
+                                    0,
+                                    1.22,
+                                    -1
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "children": [],
+                                "template": null
+                            },
+                            {
+                                "scale": [
+                                    0.2,
+                                    2.44,
+                                    1
+                                ],
+                                "name": "Left",
+                                "parent": "7dc53b37-923f-49e9-96fb-930fb9855eb1",
+                                "resource_id": "1bf03d8a-25bf-4212-b928-34197227d0d3",
+                                "labels": [],
+                                "enabled": true,
+                                "components": {
+                                    "rigidbody": {
+                                        "linearDamping": 0,
+                                        "enabled": true,
+                                        "friction": 0.5,
+                                        "mass": 1,
+                                        "angularDamping": 0,
+                                        "linearFactor": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "type": "static",
+                                        "angularFactor": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "restitution": 0.5
+                                    },
+                                    "collision": {
+                                        "enabled": true,
+                                        "halfExtents": [
+                                            0.1,
+                                            1.22,
+                                            0.5
+                                        ],
+                                        "height": 2,
+                                        "radius": 0.5,
+                                        "asset": null,
+                                        "type": "box",
+                                        "axis": 1
+                                    },
+                                    "model": {
+                                        "materialAsset": "d997651e-1d12-11e4-a41b-22000a4a0339",
+                                        "receiveShadows": true,
+                                        "enabled": true,
+                                        "castShadows": true,
+                                        "asset": null,
+                                        "type": "box"
+                                    }
+                                },
+                                "position": [
+                                    -3.66,
+                                    1.22,
+                                    -0.5
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "children": [],
+                                "template": null
+                            },
+                            {
+                                "scale": [
+                                    0.2,
+                                    2.44,
+                                    1
+                                ],
+                                "name": "Right",
+                                "parent": "7dc53b37-923f-49e9-96fb-930fb9855eb1",
+                                "resource_id": "02c37816-fccb-41dc-aa96-4fef1057c8b5",
+                                "labels": [],
+                                "enabled": true,
+                                "components": {
+                                    "rigidbody": {
+                                        "linearDamping": 0,
+                                        "enabled": true,
+                                        "friction": 0.5,
+                                        "mass": 1,
+                                        "angularDamping": 0,
+                                        "linearFactor": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "type": "static",
+                                        "angularFactor": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "restitution": 0.5
+                                    },
+                                    "collision": {
+                                        "enabled": true,
+                                        "halfExtents": [
+                                            0.1,
+                                            1.22,
+                                            0.5
+                                        ],
+                                        "height": 2,
+                                        "radius": 0.5,
+                                        "asset": null,
+                                        "type": "box",
+                                        "axis": 1
+                                    },
+                                    "model": {
+                                        "materialAsset": "d997651e-1d12-11e4-a41b-22000a4a0339",
+                                        "receiveShadows": true,
+                                        "enabled": true,
+                                        "castShadows": true,
+                                        "asset": null,
+                                        "type": "box"
+                                    }
+                                },
+                                "position": [
+                                    3.66,
+                                    1.22,
+                                    -0.5
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "children": [],
+                                "template": null
+                            },
+                            {
+                                "scale": [
+                                    0.25,
+                                    2.44,
+                                    0.25
+                                ],
+                                "name": "LeftBar",
+                                "parent": "7dc53b37-923f-49e9-96fb-930fb9855eb1",
+                                "resource_id": "9a01c63b-6c5a-4f14-994f-36fc3e23d730",
+                                "labels": [],
+                                "enabled": true,
+                                "components": {
+                                    "rigidbody": {
+                                        "linearDamping": 0,
+                                        "enabled": true,
+                                        "friction": 0.5,
+                                        "mass": 1,
+                                        "angularDamping": 0,
+                                        "linearFactor": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "type": "static",
+                                        "angularFactor": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "restitution": 0.75
+                                    },
+                                    "collision": {
+                                        "enabled": true,
+                                        "halfExtents": [
+                                            0.5,
+                                            0.5,
+                                            0.5
+                                        ],
+                                        "height": 2.44,
+                                        "radius": 0.13,
+                                        "asset": null,
+                                        "type": "cylinder",
+                                        "axis": 1
+                                    },
+                                    "model": {
+                                        "materialAsset": null,
+                                        "receiveShadows": true,
+                                        "enabled": true,
+                                        "castShadows": true,
+                                        "asset": null,
+                                        "type": "cylinder"
+                                    }
+                                },
+                                "position": [
+                                    -3.66,
+                                    1.22,
+                                    0
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "children": [],
+                                "template": null
+                            }
+                        ],
+                        "template": null
+                    },
+                    {
+                        "scale": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "name": "Cam2",
+                        "parent": "051f8df6-1d13-11e4-a911-22000a4a0339",
+                        "resource_id": "2d40633b-62c7-40f7-8d25-8f9221ec06b6",
+                        "labels": [],
+                        "enabled": false,
+                        "components": {
+                            "camera": {
+                                "priority": 1,
+                                "fov": 90,
+                                "clearDepthBuffer": true,
+                                "projection": 1,
+                                "clearColor": [
+                                    0.729411780834198,
+                                    0.729411780834198,
+                                    0.6941176652908325,
+                                    1
+                                ],
+                                "enabled": false,
+                                "orthoHeight": 30,
+                                "farClip": 35,
+                                "nearClip": 0.3,
+                                "rect": [
+                                    0.375,
+                                    0,
+                                    0.25,
+                                    0.25
+                                ],
+                                "clearColorBuffer": false
+                            }
+                        },
+                        "position": [
+                            7.771561172376096e-16,
+                            35,
+                            3.885780586188048e-15
+                        ],
+                        "rotation": [
+                            -90,
+                            90,
+                            0
+                        ],
+                        "children": [],
+                        "template": null
+                    },
+                    {
+                        "scale": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "name": "Bounds",
+                        "parent": "051f8df6-1d13-11e4-a911-22000a4a0339",
+                        "resource_id": "fa03a725-ce23-4b84-8bd5-2c4e7962ee62",
+                        "labels": [],
+                        "enabled": true,
+                        "components": {},
+                        "position": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "children": [
+                            {
+                                "scale": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "name": "LeftBound",
+                                "parent": "fa03a725-ce23-4b84-8bd5-2c4e7962ee62",
+                                "resource_id": "ddfec9d9-9dc5-48bb-a5ab-532a181c00c1",
+                                "labels": [],
+                                "enabled": true,
+                                "components": {
+                                    "collision": {
+                                        "enabled": true,
+                                        "halfExtents": [
+                                            0.5,
+                                            5,
+                                            52
+                                        ],
+                                        "height": 2,
+                                        "radius": 0.5,
+                                        "asset": null,
+                                        "type": "box",
+                                        "axis": 1
+                                    }
+                                },
+                                "position": [
+                                    -33,
+                                    5,
+                                    0
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "children": [],
+                                "template": null
+                            },
+                            {
+                                "scale": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "name": "DownBound",
+                                "parent": "fa03a725-ce23-4b84-8bd5-2c4e7962ee62",
+                                "resource_id": "9c79041c-8181-4528-8952-41efef938472",
+                                "labels": [],
+                                "enabled": true,
+                                "components": {
+                                    "collision": {
+                                        "enabled": true,
+                                        "halfExtents": [
+                                            34,
+                                            5,
+                                            0.5
+                                        ],
+                                        "height": 2,
+                                        "radius": 0.5,
+                                        "asset": null,
+                                        "type": "box",
+                                        "axis": 1
+                                    }
+                                },
+                                "position": [
+                                    0,
+                                    5,
+                                    51
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "children": [],
+                                "template": null
+                            },
+                            {
+                                "scale": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "name": "UpBound",
+                                "parent": "fa03a725-ce23-4b84-8bd5-2c4e7962ee62",
+                                "resource_id": "e5556ff7-b5c1-4a9d-a3fd-328c8dbb1f76",
+                                "labels": [],
+                                "enabled": true,
+                                "components": {
+                                    "collision": {
+                                        "enabled": true,
+                                        "halfExtents": [
+                                            34,
+                                            5,
+                                            0.5
+                                        ],
+                                        "height": 2,
+                                        "radius": 0.5,
+                                        "asset": null,
+                                        "type": "box",
+                                        "axis": 1
+                                    }
+                                },
+                                "position": [
+                                    0,
+                                    5,
+                                    -51
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "children": [],
+                                "template": null
+                            },
+                            {
+                                "scale": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "name": "RightBound",
+                                "parent": "fa03a725-ce23-4b84-8bd5-2c4e7962ee62",
+                                "resource_id": "307089f7-7a3d-4341-88d3-a520500b7349",
+                                "labels": [],
+                                "enabled": true,
+                                "components": {
+                                    "collision": {
+                                        "enabled": true,
+                                        "halfExtents": [
+                                            0.5,
+                                            5,
+                                            52
+                                        ],
+                                        "height": 2,
+                                        "radius": 0.5,
+                                        "asset": null,
+                                        "type": "box",
+                                        "axis": 1
+                                    }
+                                },
+                                "position": [
+                                    33,
+                                    5,
+                                    0
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "children": [],
+                                "template": null
+                            }
+                        ],
+                        "template": null
+                    },
+                    {
+                        "scale": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "name": "DirectionalLight",
+                        "parent": "051f8df6-1d13-11e4-a911-22000a4a0339",
+                        "resource_id": "051f93c8-1d13-11e4-a911-22000a4a0339",
+                        "labels": [],
+                        "enabled": true,
+                        "components": {
+                            "light": {
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "shadowResolution": 2048,
+                                "outerConeAngle": 45,
+                                "enabled": true,
+                                "range": 10,
+                                "castShadows": true,
+                                "intensity": 1,
+                                "innerConeAngle": 40,
+                                "type": "directional"
+                            }
+                        },
+                        "position": [
+                            0,
+                            10,
+                            0
+                        ],
+                        "rotation": [
+                            24.864070892333984,
+                            -42.949676513671875,
+                            -3.762031078338623
+                        ],
+                        "children": [],
+                        "template": null
+                    },
+                    {
+                        "scale": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "name": "Cam1",
+                        "parent": "051f8df6-1d13-11e4-a911-22000a4a0339",
+                        "resource_id": "051f910c-1d13-11e4-a911-22000a4a0339",
+                        "labels": [],
+                        "enabled": true,
+                        "components": {
+                            "camera": {
+                                "priority": 0,
+                                "fov": 60,
+                                "clearDepthBuffer": true,
+                                "projection": 0,
+                                "clearColor": [
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                "enabled": true,
+                                "orthoHeight": 100,
+                                "farClip": 200,
+                                "nearClip": 0.3,
+                                "rect": [
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                "clearColorBuffer": true
+                            }
+                        },
+                        "position": [
+                            4.325071811676025,
+                            4.0127339363098145,
+                            16.261337280273438
+                        ],
+                        "rotation": [
+                            -29.945960998535156,
+                            55.79564666748047,
+                            0.000002187304289691383
+                        ],
+                        "children": [],
+                        "template": null
+                    },
+                    {
+                        "scale": [
+                            0.05,
+                            0.05,
+                            0.05
+                        ],
+                        "name": "Ball",
+                        "parent": "051f8df6-1d13-11e4-a911-22000a4a0339",
+                        "resource_id": "0d62d551-7b85-466c-a365-0c8fcf2f038c",
+                        "labels": [],
+                        "enabled": true,
+                        "components": {
+                            "rigidbody": {
+                                "linearDamping": 0.5,
+                                "enabled": true,
+                                "friction": 1,
+                                "mass": 0.45,
+                                "angularDamping": 0.8,
+                                "linearFactor": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "type": "dynamic",
+                                "angularFactor": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "restitution": 0
+                            },
+                            "collision": {
+                                "enabled": true,
+                                "halfExtents": [
+                                    0.5,
+                                    0.5,
+                                    0.5
+                                ],
+                                "height": 2,
+                                "radius": 0.11,
+                                "asset": null,
+                                "type": "sphere",
+                                "axis": 1
+                            },
+                            "model": {
+                                "materialAsset": "f669231e-1e8c-11e4-aad3-22000a4a0339",
+                                "receiveShadows": true,
+                                "enabled": true,
+                                "castShadows": true,
+                                "asset": "8e9f544e-1f5c-11e4-a41b-22000a4a0339",
+                                "type": "asset"
+                            }
+                        },
+                        "position": [
+                            0,
+                            0.1,
+                            0
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "children": [],
+                        "template": null
+                    }
+                ],
+                "template": null
+            }
+        }
+    }
+}

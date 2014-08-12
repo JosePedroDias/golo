@@ -1,0 +1,57 @@
+{
+    "name": "0",
+    "parameters": [
+        {
+            "data": [
+                0.5,
+                0.5,
+                0.5
+            ],
+            "type": "vec3",
+            "name": "ambient"
+        },
+        {
+            "data": [
+                0.5,
+                0.5,
+                0.5
+            ],
+            "type": "vec3",
+            "name": "diffuse"
+        },
+        {
+            "data": [
+                0,
+                0,
+                0
+            ],
+            "type": "vec3",
+            "name": "specular"
+        },
+        {
+            "data": 0,
+            "type": "float",
+            "name": "shininess"
+        },
+        {
+            "data": [
+                0,
+                0,
+                0
+            ],
+            "type": "vec3",
+            "name": "emissive"
+        },
+        {
+            "data": 1,
+            "type": "float",
+            "name": "opacity"
+        },
+        {
+            "type": "float",
+            "data": 3,
+            "name": "blendType"
+        }
+    ],
+    "shader": "phong"
+}

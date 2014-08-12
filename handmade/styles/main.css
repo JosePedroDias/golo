@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    background-color: #111;
+    font-family: helvetica, arial, sans-serif;
+}
+
+canvas {
+    display: block;
+}
+
+/* remove outline on canvas */
+canvas:focus {
+    outline: none;
+}
+
+#application-splash {
+    position: absolute;
+    top: 40%;
+    width: 30%;
+    left: 35%;
+}
+
+#application-splash img {
+    width: 100%;
+}
+
+/* Small devices */
+@media (min-width: 768px) {
+    #application-splash {
+        width: 20%;
+        left: 40%;
+    }
+}
+
+/* Large devices */
+@media (min-width: 992px) {
+    #application-splash {
+        width: 10%;
+        left: 45%;
+    }
+}

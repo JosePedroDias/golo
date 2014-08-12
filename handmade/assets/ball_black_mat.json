@@ -1,0 +1,57 @@
+{
+    "name": "black mat",
+    "parameters": [
+        {
+            "data": [
+                0.2,
+                0.2,
+                0.2
+            ],
+            "type": "vec3",
+            "name": "ambient"
+        },
+        {
+            "data": [
+                0.00366149,
+                0.0176474,
+                0.0232795
+            ],
+            "type": "vec3",
+            "name": "diffuse"
+        },
+        {
+            "data": [
+                0.2,
+                0.2,
+                0.2
+            ],
+            "type": "vec3",
+            "name": "specular"
+        },
+        {
+            "data": 20,
+            "type": "float",
+            "name": "shininess"
+        },
+        {
+            "data": [
+                0.00457686,
+                0.0220593,
+                0.0290993
+            ],
+            "type": "vec3",
+            "name": "emissive"
+        },
+        {
+            "data": 1,
+            "type": "float",
+            "name": "opacity"
+        },
+        {
+            "type": "float",
+            "data": 3,
+            "name": "blendType"
+        }
+    ],
+    "shader": "phong"
+}
