@@ -29,4 +29,8 @@ I've [collected some notes](PLAYCANVAS_NOTES.md) on how to convert exported asse
 
 # TODOs
 
-* extract additional entities from the old version (goals, player, script components, etc.)
+* extract additional entities and their components from the old version:
+	* goals
+	* player
+	* bounds
+* wire things to recreate other experiment

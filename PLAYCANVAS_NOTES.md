@@ -150,3 +150,17 @@ for the file path
 
 For this to work we must add an attribute to the material:
 `"mapping_format": "path"`
+
+
+
+# recreating entities and their components (content.json to JS calls)
+
+name     -> `ent.setName(name)`
+position -> `ent.setPosition(x, y, z)`
+rotation -> `ent.setLocalEulerAngles(degX, degY, degZ)`
+scale    -> `ent.setLocalScale( new pc.Vec3(sX, sY, sZ) )`
+
+`application.context.systems.collision.addComponent(ent, {options})`
+// works with other components. replace collision with: rigidbody, camera, light...
+
+`application.context.root.addChild(ent)` // or other parent entity...
