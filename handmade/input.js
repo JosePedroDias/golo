@@ -23,8 +23,7 @@ pc.script.create('input', function(context) {
             rb.angularVelocity.set(0, 0, 0);
         },
 
-        update: function(dt) {
-            
+        update: function(dt) { 
             var k = context.keyboard;
             var i = pc.input;
             
