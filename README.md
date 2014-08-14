@@ -4,7 +4,7 @@ screencasts so far:
 
 1. [taming playcanvas               ](https://www.youtube.com/watch?v=BVQba4VGNsA)
 1. [football game prototype - part 2](https://www.youtube.com/watch?v=VHecVoHl7ec)
-1. [football game prototype - part 3](https://www.youtube.com/watch?v=TODO)
+1. [football game prototype - part 3](https://www.youtube.com/watch?v=jXmTCGL03mc)
 
 
 
