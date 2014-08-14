@@ -1,5 +1,5 @@
 {
-    "name": "net",
+    "name": "goal net",
     "parameters": [
         {
             "type": "vec3",

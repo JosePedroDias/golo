@@ -2,8 +2,8 @@ pc.script.create('director', function(context) {
     var Director = function(entity) {
         this.entity = entity;
         
-        this.distance   =  2;
-        this.height     =  2;
+        this.distance =  4;
+        this.height   =  4;
     };
 
     Director.prototype = {

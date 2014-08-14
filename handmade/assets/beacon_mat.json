@@ -128,7 +128,7 @@
         },
         {
             "type": "float",
-            "data": 0.66,
+            "data": 0.5,
             "name": "opacity"
         },
         {
